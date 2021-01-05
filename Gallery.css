@@ -1,0 +1,382 @@
+/*gallery*/
+
+body
+  {
+    margin: 0;
+    padding: 0;
+    background: url(wallpaper/flower.JPG); no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.header
+  {
+    background-color: #FF9999;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+
+  }
+
+.menu
+  {
+    background: -moz-linear-gradient(90deg, rgba(57,192,219,1) 0%, rgba(255,0,224,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(57,192,219,1) 0%, rgba(255,0,224,1) 100%);
+    background: linear-gradient(90deg, rgba(57,192,219,1) 0%, rgba(255,0,224,1) 100%);
+    width:100%;
+    float: left;
+
+  }
+
+/*menu style*/
+
+ul.menu-bar
+  {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 12px;
+    overflow: hidden;
+    font-family: times new roman;
+    font-size: 22px;
+  }
+li.menu-bar
+  {
+    float: left;
+  }
+li a
+  {
+    display: block;
+    color: white;
+    padding-left: 90px;
+    text-align: center;
+    text-decoration: none;
+  }
+li a:hover
+  {
+    background-color:rgba(0,0,0,0.4) ;
+  }
+
+
+.hd
+h1
+  {
+    font-size: 37px;
+    font-family: lucida calligraphy;
+    text-align: center;
+  }
+
+  .box-img
+   {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top:79px;
+    left: 25.5%;
+    border-radius:50%;
+  }
+
+.box
+  {
+    width: 1110px;
+    height: 2300px;
+    background: rgba(0,0,0,0.4);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    border-top-style:outset;
+  }
+    .box1
+  {
+    position: absolute;
+    width: 451px;
+    height: 50px;
+    top: 119%;
+    left: 39.5%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: inset;
+  }
+
+  .box2
+    {
+    position: absolute;
+    width: 457px;
+    height: 50px;
+    top: 178%;
+    left: 39.6%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    border-bottom: inset;
+  }
+
+  .box3
+
+{
+    position: absolute;
+    width: 258px;
+    height: 50px;
+    top: 119%;
+    left: 76.5%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    border-bottom: inset;
+    font-size: 18px;
+  }
+
+.box4
+{
+    position: absolute;
+    width: 447px;
+    height: 50px;
+    top: 160%;
+    left: 3%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    border-bottom: inset;
+    font-size: 18px;
+  }
+
+  .img1
+  {
+    position: absolute;
+    width:35.5%;
+    height: 54.5%;
+    top:450px;
+    left:39.5%;
+    border: outset;
+  }
+
+
+  .img2
+  {
+    position: absolute;
+    width: 36%;
+    height: 54.5%;
+    top:810px;
+    left: 39.5%;
+    border:outset;
+  }
+
+  .img3
+  {
+    position: absolute;
+    width: 36%;
+    height: 41.2%;
+    top:1170px;
+    left: 39.5%;
+    border:outset;
+  }
+
+  .img4
+  {
+    position: absolute;
+    width: 35%;
+    height: 53.5%;
+    top: 1060px;
+    left: 3%;
+    border:outset;
+  }
+
+  .img5
+  {
+    position: absolute;
+    width: 20%;
+    height: 40.5%;
+    top:810px;
+    left: 76.5%;
+    border:outset;
+  }
+
+.img6
+  {
+    position: absolute;
+    width: 35%;
+    height: 95%;
+    top:450px;
+    left: 3%;
+    border:outset;
+  }
+
+  .img7
+  {
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 40.5%; 
+    top: 1085px;
+    left: 76.5%;
+    border:outset;
+  }
+
+  .img8
+  {
+    position: absolute;
+    width: 20%;
+    height: 54.5%;
+    top:450px;
+    left: 76.5%;
+    border:outset;
+
+  }
+
+
+
+
+  .img10
+  {
+    position: absolute;
+    width: 32%;
+    height: 48.5%;
+    top:2124px;
+    left: 26%;
+    border:inset;
+  }
+
+    .img11
+  {
+    position: absolute;
+    width: 32%;
+    height: 36.5%;
+    top:2440px;
+    left: 26%;
+    border:inset;
+  }
+    .img12
+  {
+    position: absolute;
+    width: 32%;
+    height: 49%;
+    top:1805px;
+    left: 26%;
+    border:inset;
+  }
+     .img13
+  {
+    position: absolute;
+    width: 37.5%;
+    height: 101.5%;
+    top:2036px;
+    left: 59%;
+    border:inset;
+  }
+    .img14
+  {
+    position: absolute;
+    width: 22%;
+    height: 59.5%;
+    top:2299px;
+    left: 3%;
+    border:inset;
+  }
+
+  .img15
+  {
+
+    position: absolute;
+    width: 22%;
+    height: 56%;
+    top:1935px;
+    left: 3%;
+    border:inset;
+  }
+
+  .box16
+   {
+    display: block;
+    position: absolute;
+    width: 33%;
+    height: 27%;
+    padding: 10px;
+    padding-left: 12px;
+    top:100px;
+    left:33%;
+  }
+
+.img17
+   {
+    position: absolute;
+    width: 35%;
+    height: 53%;
+    top:1410px;
+    left:3%;
+    border:outset;
+  }
+
+  .img18
+   {
+    position: absolute;
+    width: 36%;
+    height: 54.5%;
+    top:1442px;
+    left: 39.5%;
+    border:outset;
+  }
+
+  .img19
+   {
+    position: absolute;
+    width: 20%;
+    height:54%;
+    top:1350px;
+    left: 76.5%;
+    border:outset;
+  }
+
+  .img20
+   {
+    position: absolute;
+    width: 24.5%;
+    height: 37%;
+    top:1795px;
+    left: 59%;
+    border:outset;
+  }
+
+ .img21
+   {
+    position: absolute;
+    width: 24.5%;
+    height: 37%;
+    top:1650px;
+    left: 72%;
+  }
+
+  .img22
+     {
+    position: absolute;
+    width: 24.5%;
+    height: 37%;
+    top:1650px;
+    left: 3%;
+  }
+
+
+
+
+img
+  {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+
+
+
+
+  .feet
+  {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    position: absolute;
+    top: 434%;
+    left: 40%;
+    font-family: lucida calligraphy;
+  }
